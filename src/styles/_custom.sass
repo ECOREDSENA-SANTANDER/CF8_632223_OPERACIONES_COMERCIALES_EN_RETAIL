@@ -2,14 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 35%
+    right: 60%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 73%
+    right: 20%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 15%
+    right: 12%
 
 @keyframes float1
   0%
@@ -17,3 +21,22 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+    color: black
+
+.banner-principal .tarjeta 
+  img, svg 
+    display: auto
+    border-style: hidden
+  figure, picture, img, svg 
+    width: 80%
+    
+.banner-principal__componente 
+  margin-bottom: 50px
+
+.banner-principal__row 
+    justify-content: space-around
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important

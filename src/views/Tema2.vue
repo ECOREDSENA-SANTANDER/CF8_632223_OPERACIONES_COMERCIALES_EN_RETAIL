@@ -2,10 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-secundario
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Arqueo de caja y entrega del puesto de trabajo
 
 </template>
 
