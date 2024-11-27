@@ -96,7 +96,7 @@
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Rotaciones
+        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Entrega a conformidad
         img.icon(src='@/assets/curso/temas/img30.svg')
 
     .row.justify-content-center.align-items-center.mb-4
