@@ -330,7 +330,10 @@
             ul.lista-ul
               li.d-flex.mb-0
                 i.fas.fa-circle-check
-                p.mb-0 Deben ser presentadas por el dueño, son personales e intransferibles. #[b Siempre] debe requerir la cédula del dueño o titular, el sistema no exige el número de clave.
+                p.mb-0 Deben ser presentadas por el dueño, son personales e intransferibles. 
+              li.d-flex.mb-0
+                i.fas.fa-circle-check
+                p.mb-0 #[b Siempre] debe requerir la cédula del dueño o titular, el sistema no exige el número de clave.
               li.d-flex.mb-0
                 i.fas.fa-circle-check
                 p.mb-0 El valor mínimo de compra con estas tarjetas suele ser de $5.000.
@@ -458,17 +461,10 @@
       .col-lg-10
         h4.mb-3 Cheque de empresa (nómina)
         .row.justify-content-center.align-items-start
-          .col-lg-8
+          .col-lg-7
             p.mb-4 El valor de la compra debe ser mínimo el #[b 10%] del valor del cheque, porcentaje establecido por la compañía.
-            ul.lista-ul
-              li.d-flex.mb-0
-                i.fas.fa-circle-check
-                p.mb-0 Si el valor del cheque excede los $500.000, el supervisor(a) es el encargado de requerir la autorización a Fenalcheque. 
-              li.d-flex.mb-0
-                i.fas.fa-circle-check
-                p.mb-0 El número de autorización que da el datáfono #[b siempre] lo debe colocar detrás del cheque con los demás datos del sello (nombre, cédula, dirección, teléfono).
             
-          .col-lg-4
+          .col-lg-5
             .titulo-sexto.color-secundario.mb-3
               h5 Figura 7. 
               | Cheque de empresa
@@ -529,8 +525,10 @@
           .d-flex.align-items-center.mb-1
             img(src='@/assets/curso/temas/ico.svg', alt='')
             h3.mb-0.ms-2 El efectivo y la seguridad de los billetes
+    
+    p.mb-4 Hay que tener en cuenta recomendaciones para la detección de falsificaciones. Siempre que se dude de la autenticidad de un billete o moneda, la mejor manera de verificar es comparándolo con otro billete o moneda del cual tenga la certeza que es auténtico. De esta forma será muy fácil detectar que alguna de las características de autenticidad está ausente en la falsificación. Sin embargo, si no dispone de un billete o moneda para efectuar la comparación, es importante tener presente los siguientes elementos de seguridad a encontrar para el cono monetario:
 
-    .row.fondo1.align-items-center.p-3.mb-5(data-aos="fade-down")
+    .row.fondo1.align-items-center.p-3.mb-0(data-aos="fade-down")
       .col-lg-12.col-md-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-4
         
@@ -538,7 +536,6 @@
           SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
             .row.justify-content-center.align-items-center.p-4
               .col-lg-6
-                p.mb-4 Hay que tener en cuenta recomendaciones para la detección de falsificaciones. Siempre que se dude de la autenticidad de un billete o moneda, la mejor manera de verificar es comparándolo con otro billete o moneda del cual tenga la certeza que es auténtico. De esta forma será muy fácil detectar que alguna de las características de autenticidad está ausente en la falsificación. Sin embargo, si no dispone de un billete o moneda para efectuar la comparación, es importante tener presente los siguientes elementos de seguridad a encontrar para el cono monetario:
                 ul.lista-ul
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
@@ -558,7 +555,7 @@
                 p.mb-3.text-rigth (Banco de la República, s.f.)
             .row.justify-content-center.align-items-center.p-4(data-aos="fade-left")
               .col-lg-6
-                p.mb-4 Hay que tener en cuenta recomendaciones para la detección de falsificaciones. Siempre que se dude de la autenticidad de un billete o moneda, la mejor manera de verificar es comparándolo con otro billete o moneda del cual tenga la certeza que es auténtico. De esta forma será muy fácil detectar que alguna de las características de autenticidad está ausente en la falsificación. Sin embargo, si no dispone de un billete o moneda para efectuar la comparación, es importante tener presente los siguientes elementos de seguridad a encontrar para el cono monetario:
+                
                 ul.lista-ul
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
@@ -577,7 +574,7 @@
                 p.mb-3.text-rigth (Banco de la República, s.f.)
             .row.justify-content-center.align-items-center.p-4(data-aos="fade-left")
               .col-lg-6
-                p.mb-4(data-aos="fade-left") Hay que tener en cuenta recomendaciones para la detección de falsificaciones. Siempre que se dude de la autenticidad de un billete o moneda, la mejor manera de verificar es comparándolo con otro billete o moneda del cual tenga la certeza que es auténtico. De esta forma será muy fácil detectar que alguna de las características de autenticidad está ausente en la falsificación. Sin embargo, si no dispone de un billete o moneda para efectuar la comparación, es importante tener presente los siguientes elementos de seguridad a encontrar para el cono monetario:
+                
                 ul.lista-ul
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
@@ -599,7 +596,7 @@
                 p.mb-3.text-rigth (Banco de la República, s.f.)
             .row.justify-content-center.align-items-center.p-4
               .col-lg-12
-                p.mb-4(data-aos="fade-left") Hay que tener en cuenta recomendaciones para la detección de falsificaciones. Siempre que se dude de la autenticidad de un billete o moneda, la mejor manera de verificar es comparándolo con otro billete o moneda del cual tenga la certeza que es auténtico. De esta forma será muy fácil detectar que alguna de las características de autenticidad está ausente en la falsificación. Sin embargo, si no dispone de un billete o moneda para efectuar la comparación, es importante tener presente los siguientes elementos de seguridad a encontrar para el cono monetario:
+                
                 ul.lista-ul
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
@@ -610,7 +607,7 @@
               p.mb-0.text-center Imágenes y textos en relieve y elementos en sistema braille para personas con discapacidad visual.
             .row.justify-content-center.align-items-center.p-4
               .col-lg-12
-                p.mb-4(data-aos="fade-left") Hay que tener en cuenta recomendaciones para la detección de falsificaciones. Siempre que se dude de la autenticidad de un billete o moneda, la mejor manera de verificar es comparándolo con otro billete o moneda del cual tenga la certeza que es auténtico. De esta forma será muy fácil detectar que alguna de las características de autenticidad está ausente en la falsificación. Sin embargo, si no dispone de un billete o moneda para efectuar la comparación, es importante tener presente los siguientes elementos de seguridad a encontrar para el cono monetario:
+                
                 ul.lista-ul
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
@@ -621,7 +618,7 @@
               p.mb-0.text-center Imágenes coincidentes, efectos en la cinta de seguridad y marcas de agua a trasluz.
             .row.justify-content-center.align-items-center.p-4
               .col-lg-12
-                p.mb-4(data-aos="fade-left") Hay que tener en cuenta recomendaciones para la detección de falsificaciones. Siempre que se dude de la autenticidad de un billete o moneda, la mejor manera de verificar es comparándolo con otro billete o moneda del cual tenga la certeza que es auténtico. De esta forma será muy fácil detectar que alguna de las características de autenticidad está ausente en la falsificación. Sin embargo, si no dispone de un billete o moneda para efectuar la comparación, es importante tener presente los siguientes elementos de seguridad a encontrar para el cono monetario:
+                
                 ul.lista-ul
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
@@ -632,7 +629,7 @@
               p.mb-0.text-center Efectos de color y movimiento, así como imágenes ocultas.
             .row.justify-content-center.align-items-center.p-4
               .col-lg-12
-                p.mb-4(data-aos="fade-left") Hay que tener en cuenta recomendaciones para la detección de falsificaciones. Siempre que se dude de la autenticidad de un billete o moneda, la mejor manera de verificar es comparándolo con otro billete o moneda del cual tenga la certeza que es auténtico. De esta forma será muy fácil detectar que alguna de las características de autenticidad está ausente en la falsificación. Sin embargo, si no dispone de un billete o moneda para efectuar la comparación, es importante tener presente los siguientes elementos de seguridad a encontrar para el cono monetario:
+                
                 ul.lista-ul
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
@@ -643,7 +640,7 @@
               p.mb-0.text-center Reacción a luz ultravioleta.
             .row.justify-content-center.align-items-center.p-4
               .col-lg-12
-                p.mb-4(data-aos="fade-left") Hay que tener en cuenta recomendaciones para la detección de falsificaciones. Siempre que se dude de la autenticidad de un billete o moneda, la mejor manera de verificar es comparándolo con otro billete o moneda del cual tenga la certeza que es auténtico. De esta forma será muy fácil detectar que alguna de las características de autenticidad está ausente en la falsificación. Sin embargo, si no dispone de un billete o moneda para efectuar la comparación, es importante tener presente los siguientes elementos de seguridad a encontrar para el cono monetario:
+                
                 ul.lista-ul
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
@@ -654,7 +651,7 @@
               p.mb-0.text-center Microtextos para observar con lupa.
             .row.justify-content-center.align-items-center.p-4
               .col-lg-12
-                p.mb-4(data-aos="fade-left") Hay que tener en cuenta recomendaciones para la detección de falsificaciones. Siempre que se dude de la autenticidad de un billete o moneda, la mejor manera de verificar es comparándolo con otro billete o moneda del cual tenga la certeza que es auténtico. De esta forma será muy fácil detectar que alguna de las características de autenticidad está ausente en la falsificación. Sin embargo, si no dispone de un billete o moneda para efectuar la comparación, es importante tener presente los siguientes elementos de seguridad a encontrar para el cono monetario:
+                
                 ul.lista-ul
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
@@ -663,10 +660,6 @@
                 img.mb-3(src="@/assets/curso/temas/img20.png", alt="")
                 p.mb-4.text-rigth (Banco de la República, s.f.)
               p.mb-0.text-center Variación de color.
-
-    #t_1_3.titulo-segundo.mb-5
-      h2 1.3 Registro de documentos de valor
-
 
 
 </template>

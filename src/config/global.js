@@ -49,11 +49,6 @@ export default {
             titulo: 'Clasificar efectivo y medios de pago',
             hash: 't_1_2',
           },
-          {
-            numero: '1.3',
-            titulo: 'Registro de documentos de valor',
-            hash: 't_1_3',
-          },
         ],
       },
 
@@ -283,8 +278,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Marcos Yamid Rubiano Avellaneda',
-          cargo: 'Diseñadora de contenidos digitales',
+          nombre: 'Julian Fernando Vanegas Vega',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -303,7 +298,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Yineth Ibette Gonzalez Quintero',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validador de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
