@@ -74,7 +74,7 @@
                       h4.mb-2 Verificación del funcionamiento de la caja
                       p.mb-2 Tanto al entregar como al recibir el puesto de trabajo es importante validar el correcto funcionamiento de esta, se invita a ver el siguiente recurso externo.
                     .col-sm-auto
-                      a.boton.color-acento-botones(href="https://youtu.be/NMcQatosBOo" target="_blank")
+                      a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=uFe65nDNpIQ" target="_blank")
                         span.ps-2.pe-2 Ir al sitio
                         i.fas.fa-video
 
@@ -123,7 +123,7 @@
                       h4.mb-2 Proceso general del cajero  
                       p.mb-2 Para garantizar este punto es importante recordar realizar un adecuado proceso de manejo de caja, se invita a repasar el mismo a través del siguiente recurso.
                     .col-sm-auto
-                      a.boton.color-acento-botones(href="https://youtu.be/NMcQatosBOo" target="_blank")
+                      a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=nYWj9Tru7mc" target="_blank")
                         span.ps-2.pe-2 Ir al sitio
                         i.fas.fa-video
 
@@ -139,7 +139,7 @@
                       h4.mb-2(data-aos="fade-left") Mejora continua   
                       p.mb-2(data-aos="fade-left") Esta es la gran aliada para mejorar día a día su labor, revise el siguiente recurso externo.
                     .col-sm-auto
-                      a.boton.color-acento-botones(href="https://youtu.be/NMcQatosBOo" target="_blank")
+                      a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Bnh13PRml3Y" target="_blank")
                         span.ps-2.pe-2 Ir al sitio
                         i.fas.fa-video
 
