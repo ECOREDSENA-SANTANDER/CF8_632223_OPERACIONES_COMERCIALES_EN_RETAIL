@@ -90,7 +90,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF8_632223_DU.zip',
       },
       {
         icono: 'fas fa-download',
